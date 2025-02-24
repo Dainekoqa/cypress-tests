@@ -10,3 +10,4 @@ Cypress.Commands.add('login', (email, password) => {
     cy.get('#signinPassword').type(password, { sensitive: true });
     cy.get('button.btn-primary').click();
 });
+
